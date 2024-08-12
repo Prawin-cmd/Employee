@@ -75,7 +75,7 @@ public Optional<Employee> getByName(String name) {
 
 public String putByAge(Employee e1) {
 	er.save(e1);
-	return "Uploded successfully";
+	return "Uploded";
 }
 
 public String putById(Employee eid, int id) {
